@@ -1,6 +1,6 @@
 <div align="center">
 
-# Oracle
+<p><img src="oracle-logo-icon.png" alt="Símbolo do Oracle" width="72" align="middle" /> <img src="oracle-text-logo.svg" alt="Oracle" width="220" align="middle" /></p>
 
 **Pesquise, abra e resolva tarefas do Windows em uma única janela.**
 
@@ -100,3 +100,4 @@ League of Legends e os nomes, ícones e recursos relacionados são marcas e prop
 Encontrou um erro ou quer sugerir uma melhoria? Abra uma [issue](https://github.com/mathwegner/Oracle/issues) informando a versão do Oracle, sua versão do Windows e os passos para reproduzir o problema. Se possível, anexe uma captura de tela sem dados pessoais.
 
 Para apoiar a continuidade do projeto, use o QR Code de doação disponível na seção **Sobre** do aplicativo.
+
