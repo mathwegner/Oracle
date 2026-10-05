@@ -9,8 +9,7 @@ Launcher para Windows com busca rápida, ferramentas do dia a dia e recursos par
 [⬇️ Baixar a versão mais recente](https://github.com/mathwegner/Oracle/releases/latest) · [Ver todas as versões](https://github.com/mathwegner/Oracle/releases)
 
 ![Windows 10 e 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)
-![Beta](https://img.shields.io/badge/status-beta-orange)
-![Versão](https://img.shields.io/badge/vers%C3%A3o-0.1.45--beta-blue)
+[![Versão e canal](https://img.shields.io/github/v/release/mathwegner/Oracle?include_prereleases&label=vers%C3%A3o%20%2F%20canal)](https://github.com/mathwegner/Oracle/releases/latest)
 
 </div>
 
@@ -20,7 +19,7 @@ Launcher para Windows com busca rápida, ferramentas do dia a dia e recursos par
 
 O Oracle é um launcher inteligente para Windows. Abra a pesquisa, digite o que precisa e acesse aplicativos, cálculos, conversões, traduções, respostas de IA e ferramentas de League of Legends sem navegar por vários menus.
 
-O aplicativo continua em **beta**. Recursos e integrações online podem mudar conforme os serviços externos atualizam seus sites e dados.
+O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam uma versão de pré-lançamento; sem esse sufixo, indicam uma versão estável. Recursos e integrações online podem mudar conforme os serviços externos atualizam seus sites e dados.
 
 ## Recursos
 
@@ -100,4 +99,5 @@ League of Legends e os nomes, ícones e recursos relacionados são marcas e prop
 Encontrou um erro ou quer sugerir uma melhoria? Abra uma [issue](https://github.com/mathwegner/Oracle/issues) informando a versão do Oracle, sua versão do Windows e os passos para reproduzir o problema. Se possível, anexe uma captura de tela sem dados pessoais.
 
 Para apoiar a continuidade do projeto, use o QR Code de doação disponível na seção **Sobre** do aplicativo.
+
 
