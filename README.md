@@ -32,7 +32,9 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - Consulte a web quando precisar de informações atuais.
 - Digite `clima Biguaçu` para ver temperatura atual, previsão de oito dias e gráficos por hora, sem escrever `web`. Use também cidade e estado, como `clima Santa Maria RS` ou `clima Santa Maria, Rio Grande do Sul`.
 - Digite `yt` e pressione Enter para abrir o YouTube no navegador padrão.
-- Ajuste tema, idioma, transparência, atalhos e posição da janela.
+- Personalize os temas Dark e White, idioma, transparência do painel e das sugestões, atalhos e posição da janela.
+- Escolha quais sugestões aparecem no menu principal em **Opções**.
+- A janela começa centralizada no monitor principal. Ao movê-la, sua posição fica salva; **Restaurar posição padrão** recupera a centralização.
 - A janela se ajusta ao conteúdo; ao redimensioná-la manualmente, o Oracle respeita o espaço escolhido.
 
 ### Chat IA local
@@ -40,7 +42,11 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - Converse com um assistente local para perguntas gerais, planejamento e ajuda com programação e projetos.
 - Envie imagens, vídeos, PDFs, documentos Word e arquivos de texto ou código compatíveis. Clique nas miniaturas e nos cartões para visualizar os anexos antes ou depois do envio.
 - A IA visual analisa imagens, as primeiras seis páginas de PDFs e até seis quadros por vídeo, sem áudio. Documentos Word incluem texto e imagens compatíveis.
-- Vídeos têm controles de reprodução na prévia. Se a IA falhar, os anexos permanecem preparados para reenviar.
+- Imagens têm zoom, ajuste à janela e tamanho original. Vídeos têm controles de reprodução na prévia.
+- PDFs permitem navegar por todas as páginas do arquivo original. Word (.docx) tem uma prévia de leitura com parágrafos, títulos, formatação básica, tabelas e imagens; o layout pode diferir do original. Use **Abrir original** para conferir o documento no aplicativo associado.
+- Respostas apresentam títulos, negrito, itálico, listas, citações, links e blocos de código formatados.
+- Copie a resposta completa pelo botão **Copiar**, copie um bloco de código ou selecione somente o trecho desejado para copiar com **Ctrl+C** e pelo menu de contexto.
+- Se a IA falhar, a mensagem e os anexos permanecem preparados para reenviar.
 - Use Enter para enviar ou o botão de envio; Shift+Enter cria uma nova linha.
 - Continue uma resposta inicial em uma conversa com histórico, mensagens em cartões e emojis coloridos disponíveis offline.
 - O Oracle usa o Ollama e um modelo local. Na configuração inicial, pode ser necessário baixar componentes e o modelo; essa etapa requer internet e espaço em disco.
@@ -51,13 +57,15 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - **Duo Bot:** combina o catálogo do projeto com dados de sinergia da OP.GG, mostra tiers e estatísticas e permite percorrer a lista sem pesquisar cada dupla. Os dados da OP.GG têm uma amostra mínima; combinações incluídas no catálogo do projeto são preservadas.
 - **Counter Pick:** consulta confrontos por rota, inclusive quando há poucas partidas na amostra.
 - **Runas:** abre as recomendações do campeão e da rota no League of Graphs.
-- **Perfil do jogador:** aceita Riot ID com `#` e busca nomes compatíveis quando você informa somente o nick.
+- **Perfil do jogador:** pesquisa Riot ID com `#` no League of Graphs e procura nomes compatíveis sem `#` na OP.GG.
 - Retratos dos campeões atuais ficam incluídos no aplicativo; fontes online ajudam a atualizar dados e imagens.
 - As sugestões de LoL aparecem por padrão quando uma instalação do jogo é detectada. Mesmo sem o jogo, você pode ativá-las em **Opções**; suas escolhas ficam salvas.
 
 ### Windows
 
-- Escolha o alinhamento centralizado ou à esquerda para os ícones da barra de tarefas, conforme o suporte da versão do Windows.
+- Escolha o alinhamento centralizado ou à esquerda para os ícones da barra de tarefas, conforme o suporte da versão do Windows. A configuração inicial respeita o alinhamento utilizado no seu computador.
+- No Windows 10, a centralização acompanha a abertura e o fechamento de aplicativos com uma transição curta e suave; ao encerrar o Oracle, o alinhamento anterior é restaurado.
+- Configure a visibilidade da pesquisa, Visão de Tarefas, widgets, Cortana, Copilot e botão Iniciar, conforme os recursos disponíveis no Windows.
 - Acesse atalhos para desligar, reiniciar e abrir as Configurações do Windows.
 - Configure a tecla Windows para abrir ou ocultar o Oracle, mantendo combinações como `Win + R` e `Win + E` disponíveis.
 - Ajuste opções compatíveis da barra de tarefas. Algumas delas dependem da versão do Windows e de componentes externos como Windhawk ou TaskbarX.
@@ -81,18 +89,15 @@ As atualizações passam a manter o nome **Oracle.exe** e a ajustar os atalhos c
 
 Também é possível baixar manualmente a versão atual pela página de [releases](https://github.com/mathwegner/Oracle/releases).
 
-## Novidades da versão 0.1.62-beta
+## Novidades da versão 0.1.65-beta
 
-- **Tecla Windows mais estável:** revisão de toques rápidos e repetidos e do uso após abrir aplicativos em Apps.
-- **Foco na pesquisa:** ao abrir pela tecla Windows com outro aplicativo ativo, o Oracle solicita o foco de teclado para permitir digitar diretamente na pesquisa.
-- **Alternância da janela:** a tecla Windows traz o Oracle para frente quando outro programa está ativo e oculta a janela quando o próprio Oracle está em primeiro plano.
-- **Clima com estado:** informe a sigla ou o nome do estado para distinguir cidades com o mesmo nome, como `clima Santa Maria RS`.
-- **Atualização com nome fixo:** o executável e os atalhos correspondentes passam a usar Oracle, sem a versão no nome.
-- **Início discreto:** com a inicialização automática ativada, o aplicativo permanece em segundo plano, sem abrir a janela.
-- Consulte [todas as melhorias e correções desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.62-beta).
-
-- **Prévias de anexos:** confira imagens, vídeos e arquivos dentro do Chat IA, antes e depois do envio.
-- **Análise visual:** imagens, páginas de PDF, imagens de Word e quadros de vídeos usam Qwen3-VL.
+- **Prévia renovada:** janela moderna para anexos, controles de zoom e navegação organizada.
+- **Respostas mais legíveis:** títulos, destaques, listas e código com formatação visual.
+- **Cópia flexível:** copie respostas completas, blocos de código ou somente o texto selecionado.
+- **Estabilidade:** corrigido o encerramento do aplicativo ao usar o menu de seleção de texto.
+- **Word organizado:** prévia de leitura com parágrafos, tabelas e imagens na ordem do documento.
+- **PDF completo na prévia:** navegue por todas as páginas e abra o original quando precisar.
+- Consulte [todas as melhorias e correções desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.65-beta).
 
 ## Exemplos de pesquisa
 
@@ -133,9 +138,3 @@ Se o Oracle é útil para você, sua contribuição ajuda a manter o projeto e d
 Leia o QR Code abaixo com o aplicativo do seu banco para fazer uma doação via Pix:
 
 <p align="center"><img src="pix-donation-qr.png" alt="QR Code Pix para apoiar o projeto Oracle" width="280" /></p>
-
-
-
-
-
-
