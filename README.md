@@ -79,12 +79,14 @@ As atualizações passam a manter o nome **Oracle.exe** e a ajustar os atalhos c
 
 Também é possível baixar manualmente a versão atual pela página de [releases](https://github.com/mathwegner/Oracle/releases).
 
-## Novidades da versão 0.1.60-beta
+## Novidades da versão 0.1.61-beta
 
+- **Foco na pesquisa:** ao abrir pela tecla Windows com outro aplicativo ativo, o Oracle solicita o foco de teclado para permitir digitar diretamente na pesquisa.
+- **Alternância da janela:** a tecla Windows traz o Oracle para frente quando outro programa está ativo e oculta a janela quando o próprio Oracle está em primeiro plano.
 - **Clima com estado:** informe a sigla ou o nome do estado para distinguir cidades com o mesmo nome, como `clima Santa Maria RS`.
 - **Atualização com nome fixo:** o executável e os atalhos correspondentes passam a usar Oracle, sem a versão no nome.
 - **Início discreto:** com a inicialização automática ativada, o aplicativo permanece em segundo plano, sem abrir a janela.
-- Consulte [todas as melhorias e correções desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.60-beta).
+- Consulte [todas as melhorias e correções desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.61-beta).
 
 ## Exemplos de pesquisa
 
@@ -125,6 +127,7 @@ Se o Oracle é útil para você, sua contribuição ajuda a manter o projeto e d
 Leia o QR Code abaixo com o aplicativo do seu banco para fazer uma doação via Pix:
 
 <p align="center"><img src="pix-donation-qr.png" alt="QR Code Pix para apoiar o projeto Oracle" width="280" /></p>
+
 
 
 
