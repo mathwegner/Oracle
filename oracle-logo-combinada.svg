@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 190" role="img" aria-labelledby="title desc">
+  <title id="title">Oracle</title>
+  <desc id="desc">Logo Oracle em branco sobre fundo preto, com símbolo O e nome alinhados e proporcionais.</desc>
+  <rect width="760" height="190" fill="#090909"/>
+  <circle cx="112" cy="95" r="62" fill="none" stroke="#fff" stroke-width="11"/>
+  <text x="215" y="139" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="118" font-weight="500" letter-spacing="-1.2" textLength="500" lengthAdjust="spacingAndGlyphs">Oracle</text>
+</svg>

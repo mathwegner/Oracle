@@ -1,6 +1,6 @@
 <div align="center">
 
-<p><img src="oracle-logo-icon.png" alt="Símbolo do Oracle" width="72" align="middle" /> <img src="oracle-text-logo.svg" alt="Oracle" width="220" align="middle" /></p>
+<p><img src="oracle-logo-combinada.svg" alt="Logo do Oracle" width="320" /></p>
 
 **Pesquise, abra e resolva tarefas do Windows em uma única janela.**
 
