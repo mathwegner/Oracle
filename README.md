@@ -25,12 +25,12 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 
 ### Pesquisa e produtividade
 
-- Encontre e abra aplicativos instalados.
+- Encontre e abra aplicativos instalados, com busca por nomes, iniciais e pequenos erros de digitação.
 - Faça cálculos com números ou expressões escritas em palavras.
 - Converta moedas tradicionais e criptomoedas.
 - Traduza palavras e frases e escolha o idioma de destino.
 - Consulte a web quando precisar de informações atuais.
-- Digite `clima Biguaçu` para ver temperatura atual, previsão de oito dias e gráficos por hora, sem escrever `web`.
+- Digite `clima Biguaçu` para ver temperatura atual, previsão de oito dias e gráficos por hora, sem escrever `web`. Use também cidade e estado, como `clima Santa Maria RS` ou `clima Santa Maria, Rio Grande do Sul`.
 - Digite `yt` e pressione Enter para abrir o YouTube no navegador padrão.
 - Ajuste tema, idioma, transparência, atalhos e posição da janela.
 - A janela se ajusta ao conteúdo; ao redimensioná-la manualmente, o Oracle respeita o espaço escolhido.
@@ -60,6 +60,7 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - Configure a tecla Windows para abrir ou ocultar o Oracle, mantendo combinações como `Win + R` e `Win + E` disponíveis.
 - Ajuste opções compatíveis da barra de tarefas. Algumas delas dependem da versão do Windows e de componentes externos como Windhawk ou TaskbarX.
 - Capture a tela pelas opções do Oracle.
+- Ao iniciar com o Windows, o Oracle fica em segundo plano na área de notificação. Clique no ícone para abrir a janela; a posição em Ícones ocultos segue sua preferência no Windows.
 - Use **Restaurar barra de tarefas padrão** para desfazer as ocultações do Oracle e recuperar o alinhamento anterior preservado do Windows.
 
 ## Instalação
@@ -74,7 +75,16 @@ O Oracle é distribuído como um executável independente. A IA local e algumas 
 
 Use **Verificar atualizações** na seção **Sobre** do Oracle. O aplicativo consulta as releases deste repositório e pode baixar e aplicar uma versão mais recente.
 
+As atualizações passam a manter o nome **Oracle.exe** e a ajustar os atalhos correspondentes da área de trabalho para **Oracle**, preservando suas preferências.
+
 Também é possível baixar manualmente a versão atual pela página de [releases](https://github.com/mathwegner/Oracle/releases).
+
+## Novidades da versão 0.1.60-beta
+
+- **Clima com estado:** informe a sigla ou o nome do estado para distinguir cidades com o mesmo nome, como `clima Santa Maria RS`.
+- **Atualização com nome fixo:** o executável e os atalhos correspondentes passam a usar Oracle, sem a versão no nome.
+- **Início discreto:** com a inicialização automática ativada, o aplicativo permanece em segundo plano, sem abrir a janela.
+- Consulte [todas as melhorias e correções desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.60-beta).
 
 ## Exemplos de pesquisa
 
@@ -90,7 +100,7 @@ Digite estes comandos na busca do Oracle:
 | Buscar um perfil | `lol perfil Nome#TAG` ou `lol perfil Nome` |
 | Conversar com a IA | `chat como faço para organizar meu projeto?` |
 | Pesquisar na web | `web notícias de tecnologia` |
-| Consultar o clima | `clima Biguaçu`, `clima+Biguaçu` ou `clima em São Paulo` |
+| Consultar o clima | `clima Biguaçu SC`, `clima Santa Maria RS` ou `clima Santa Maria, Rio Grande do Sul` |
 | Abrir o YouTube | `yt` + Enter |
 | Traduzir | `traduzir good morning para português` |
 
@@ -115,3 +125,7 @@ Se o Oracle é útil para você, sua contribuição ajuda a manter o projeto e d
 Leia o QR Code abaixo com o aplicativo do seu banco para fazer uma doação via Pix:
 
 <p align="center"><img src="pix-donation-qr.png" alt="QR Code Pix para apoiar o projeto Oracle" width="280" /></p>
+
+
+
+
