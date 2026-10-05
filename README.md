@@ -6,10 +6,10 @@
 
 Launcher para Windows com busca rápida, ferramentas do dia a dia e recursos para League of Legends.
 
-[⬇️ Baixar a versão mais recente](https://github.com/mathwegner/Oracle/releases/latest) · [Ver todas as versões](https://github.com/mathwegner/Oracle/releases)
+[⬇️ Baixar a versão mais recente](https://github.com/mathwegner/Oracle/releases) · [Ver todas as versões](https://github.com/mathwegner/Oracle/releases)
 
 ![Windows 10 e 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)
-[![Versão e canal](https://img.shields.io/github/v/release/mathwegner/Oracle?include_prereleases&label=vers%C3%A3o%20%2F%20canal)](https://github.com/mathwegner/Oracle/releases/latest)
+[![Versão e canal](https://img.shields.io/github/v/release/mathwegner/Oracle?include_prereleases&label=vers%C3%A3o%20%2F%20canal)](https://github.com/mathwegner/Oracle/releases)
 
 </div>
 
@@ -30,6 +30,8 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - Converta moedas tradicionais e criptomoedas.
 - Traduza palavras e frases e escolha o idioma de destino.
 - Consulte a web quando precisar de informações atuais.
+- Digite `clima Biguaçu` para ver temperatura atual, previsão de oito dias e gráficos por hora, sem escrever `web`.
+- Digite `yt` e pressione Enter para abrir o YouTube no navegador padrão.
 - Ajuste tema, idioma, transparência, atalhos e posição da janela.
 - A janela se ajusta ao conteúdo; ao redimensioná-la manualmente, o Oracle respeita o espaço escolhido.
 
@@ -37,6 +39,8 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 
 - Converse com um assistente local para perguntas gerais, planejamento e ajuda com programação e projetos.
 - Envie anexos compatíveis, incluindo imagens, vídeos e arquivos de texto.
+- Use Enter para enviar ou o botão de envio; Shift+Enter cria uma nova linha.
+- Continue uma resposta inicial em uma conversa com histórico, mensagens em cartões e emojis coloridos disponíveis offline.
 - O Oracle usa o Ollama e um modelo local. Na configuração inicial, pode ser necessário baixar componentes e o modelo; essa etapa requer internet e espaço em disco.
 - As respostas são geradas pelo modelo instalado no computador. A qualidade, a velocidade e os formatos que ele consegue analisar dependem do modelo e do hardware disponíveis.
 
@@ -47,6 +51,7 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - **Runas:** abre as recomendações do campeão e da rota no League of Graphs.
 - **Perfil do jogador:** aceita Riot ID com `#` e busca nomes compatíveis quando você informa somente o nick.
 - Retratos dos campeões atuais ficam incluídos no aplicativo; fontes online ajudam a atualizar dados e imagens.
+- As sugestões de LoL aparecem por padrão quando uma instalação do jogo é detectada. Mesmo sem o jogo, você pode ativá-las em **Opções**; suas escolhas ficam salvas.
 
 ### Windows
 
@@ -55,11 +60,12 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - Configure a tecla Windows para abrir ou ocultar o Oracle, mantendo combinações como `Win + R` e `Win + E` disponíveis.
 - Ajuste opções compatíveis da barra de tarefas. Algumas delas dependem da versão do Windows e de componentes externos como Windhawk ou TaskbarX.
 - Capture a tela pelas opções do Oracle.
+- Use **Restaurar barra de tarefas padrão** para desfazer as ocultações do Oracle e recuperar o alinhamento anterior preservado do Windows.
 
 ## Instalação
 
-1. Abra a página de [releases](https://github.com/mathwegner/Oracle/releases/latest).
-2. Baixe o executável para Windows x64 anexado à versão mais recente.
+1. Abra a página de [releases](https://github.com/mathwegner/Oracle/releases).
+2. Baixe **Oracle.exe**, o executável para Windows x64 anexado à versão mais recente.
 3. Abra o arquivo baixado para iniciar o Oracle.
 
 O Oracle é distribuído como um executável independente. A IA local e algumas consultas online podem baixar dados adicionais na primeira utilização.
@@ -83,16 +89,20 @@ Digite estes comandos na busca do Oracle:
 | Ver runas | `runas Yasuo` |
 | Buscar um perfil | `lol perfil Nome#TAG` ou `lol perfil Nome` |
 | Conversar com a IA | `chat como faço para organizar meu projeto?` |
-| Pesquisar na web | `web previsão do tempo em São Paulo` |
+| Pesquisar na web | `web notícias de tecnologia` |
+| Consultar o clima | `clima Biguaçu`, `clima+Biguaçu` ou `clima em São Paulo` |
+| Abrir o YouTube | `yt` + Enter |
 | Traduzir | `traduzir good morning para português` |
 
 Os nomes dos comandos podem variar conforme o idioma selecionado e a versão do aplicativo.
 
 ## Dados e serviços externos
 
-O Oracle usa serviços externos para recursos online. Entre as fontes utilizadas estão OP.GG, League of Graphs e Riot Data Dragon. A disponibilidade e a atualização dos dados dependem desses serviços. O Chat IA local usa o Ollama e o modelo instalado no computador; consultas explicitamente feitas à web podem enviar o texto de pesquisa ao serviço de busca correspondente.
+O Oracle usa serviços externos para recursos online. Entre as fontes utilizadas estão OP.GG, League of Graphs, Riot Data Dragon e [Open-Meteo](https://open-meteo.com/), com geocodificação baseada no GeoNames. A disponibilidade e a atualização dos dados dependem desses serviços. O Chat IA local usa o Ollama e o modelo instalado no computador; consultas explicitamente feitas à web podem enviar o texto de pesquisa ao serviço de busca correspondente.
 
 League of Legends e os nomes, ícones e recursos relacionados são marcas e propriedades de seus respectivos titulares. O Oracle é um projeto independente e não é afiliado à Riot Games.
+
+Emojis coloridos: [Twemoji](https://github.com/jdecked/twemoji), de Twitter e colaboradores, sob a licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). As imagens ficam incluídas no aplicativo para uso offline.
 
 ## Ajuda e contato
 
@@ -105,5 +115,3 @@ Se o Oracle é útil para você, sua contribuição ajuda a manter o projeto e d
 Leia o QR Code abaixo com o aplicativo do seu banco para fazer uma doação via Pix:
 
 <p align="center"><img src="pix-donation-qr.png" alt="QR Code Pix para apoiar o projeto Oracle" width="280" /></p>
-
-
