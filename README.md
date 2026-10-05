@@ -98,6 +98,12 @@ League of Legends e os nomes, ícones e recursos relacionados são marcas e prop
 
 Encontrou um erro ou quer sugerir uma melhoria? Abra uma [issue](https://github.com/mathwegner/Oracle/issues) informando a versão do Oracle, sua versão do Windows e os passos para reproduzir o problema. Se possível, anexe uma captura de tela sem dados pessoais.
 
-Para apoiar a continuidade do projeto, use o QR Code de doação disponível na seção **Sobre** do aplicativo.
+## Apoie o projeto
+
+Se o Oracle é útil para você, sua contribuição ajuda a manter o projeto e dar continuidade ao desenvolvimento.
+
+Leia o QR Code abaixo com o aplicativo do seu banco para fazer uma doação via Pix:
+
+<p align="center"><img src="pix-donation-qr.png" alt="QR Code Pix para apoiar o projeto Oracle" width="280" /></p>
 
 
