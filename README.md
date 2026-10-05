@@ -38,7 +38,9 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 ### Chat IA local
 
 - Converse com um assistente local para perguntas gerais, planejamento e ajuda com programação e projetos.
-- Envie anexos compatíveis, incluindo imagens, vídeos e arquivos de texto.
+- Envie imagens, vídeos, PDFs, documentos Word e arquivos de texto ou código compatíveis. Clique nas miniaturas e nos cartões para visualizar os anexos antes ou depois do envio.
+- A IA visual analisa imagens, as primeiras seis páginas de PDFs e até seis quadros por vídeo, sem áudio. Documentos Word incluem texto e imagens compatíveis.
+- Vídeos têm controles de reprodução na prévia. Se a IA falhar, os anexos permanecem preparados para reenviar.
 - Use Enter para enviar ou o botão de envio; Shift+Enter cria uma nova linha.
 - Continue uma resposta inicial em uma conversa com histórico, mensagens em cartões e emojis coloridos disponíveis offline.
 - O Oracle usa o Ollama e um modelo local. Na configuração inicial, pode ser necessário baixar componentes e o modelo; essa etapa requer internet e espaço em disco.
@@ -79,14 +81,18 @@ As atualizações passam a manter o nome **Oracle.exe** e a ajustar os atalhos c
 
 Também é possível baixar manualmente a versão atual pela página de [releases](https://github.com/mathwegner/Oracle/releases).
 
-## Novidades da versão 0.1.61-beta
+## Novidades da versão 0.1.62-beta
 
+- **Tecla Windows mais estável:** revisão de toques rápidos e repetidos e do uso após abrir aplicativos em Apps.
 - **Foco na pesquisa:** ao abrir pela tecla Windows com outro aplicativo ativo, o Oracle solicita o foco de teclado para permitir digitar diretamente na pesquisa.
 - **Alternância da janela:** a tecla Windows traz o Oracle para frente quando outro programa está ativo e oculta a janela quando o próprio Oracle está em primeiro plano.
 - **Clima com estado:** informe a sigla ou o nome do estado para distinguir cidades com o mesmo nome, como `clima Santa Maria RS`.
 - **Atualização com nome fixo:** o executável e os atalhos correspondentes passam a usar Oracle, sem a versão no nome.
 - **Início discreto:** com a inicialização automática ativada, o aplicativo permanece em segundo plano, sem abrir a janela.
-- Consulte [todas as melhorias e correções desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.61-beta).
+- Consulte [todas as melhorias e correções desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.62-beta).
+
+- **Prévias de anexos:** confira imagens, vídeos e arquivos dentro do Chat IA, antes e depois do envio.
+- **Análise visual:** imagens, páginas de PDF, imagens de Word e quadros de vídeos usam Qwen3-VL.
 
 ## Exemplos de pesquisa
 
@@ -127,6 +133,7 @@ Se o Oracle é útil para você, sua contribuição ajuda a manter o projeto e d
 Leia o QR Code abaixo com o aplicativo do seu banco para fazer uma doação via Pix:
 
 <p align="center"><img src="pix-donation-qr.png" alt="QR Code Pix para apoiar o projeto Oracle" width="280" /></p>
+
 
 
 
