@@ -34,8 +34,22 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - Digite `yt` e pressione Enter para abrir o YouTube no navegador padrão.
 - Personalize os temas Dark e White, idioma, transparência do painel e das sugestões, atalhos e posição da janela.
 - Escolha quais sugestões aparecem no menu principal em **Opções**.
+- Use **Opções → Sugestões → Organizar sugestões** para arrastar um cartão sobre outro e trocar suas posições com animação, ou usar as setas para definir sua ordem. A organização é salva automaticamente, com opção de restaurar a ordem padrão.
 - A janela começa centralizada no monitor principal. Ao movê-la, sua posição fica salva; **Restaurar posição padrão** recupera a centralização.
 - A janela se ajusta ao conteúdo; ao redimensioná-la manualmente, o Oracle respeita o espaço escolhido.
+
+### Notícias
+
+- Abra **Notícias** nas sugestões ou digite `notícias`, `jornal` ou `radar` para ler sua edição do dia.
+- A edição reúne notícias do Brasil e do mundo.
+- Em **Opções → Fontes de notícias**, ative ou restrinja cada fonte e adicione outros sites ou links RSS. Sites sem feed usam a cobertura disponível no Google Notícias; a disponibilidade varia por veículo.
+- As fontes ficam recolhidas em Opções, com um resumo da seleção. Clique em **Gerenciar fontes** para ajustar e em **Recolher fontes** para liberar espaço.
+- Manchetes em destaque, fonte e horário visíveis, cartões organizados e mais notícias aparecendo ao rolar.
+- Busque palavras-chave e combine com categorias: Brasil, Mundo, Política, Economia, Tecnologia, Ciência, Saúde, Esportes, Games, Cultura, Educação, Meio ambiente, Negócios e Segurança. Cada categoria usa termos relacionados no título e no resumo; a busca consulta somente as fontes ativas. Limpar remove os filtros, enquanto Tudo remove apenas a categoria.
+- Alterne entre **Em destaque** e **Mais recentes** em um menu com seleção destacada. Leia a notícia dentro do Oracle, com modo de leitura disponível quando o veículo permite extrair o conteúdo. Use **Abrir na fonte** para acessar a matéria original no navegador padrão. As condições de acesso do veículo são preservadas.
+- Atualização ao abrir, com edição salva disponível quando a conexão falhar. Manchetes duplicadas são agrupadas.
+- Informações da edição junto ao título e busca abaixo dos assuntos. Durante a atualização, a lista permanece estável e os novos resultados entram com uma transição suave.
+- Fontes disponíveis incluem BBC News Brasil, Agência Brasil, CNN Brasil, Poder360, RFI Brasil, DW Brasil, Euronews Português, Reuters e g1. Mais Esports é adicionado e ativado automaticamente quando League of Legends é detectado; escolhas posteriores do usuário são respeitadas.
 
 ### Chat IA local
 
@@ -89,16 +103,16 @@ As atualizações passam a manter o nome **Oracle.exe** e a ajustar os atalhos c
 
 Também é possível baixar manualmente a versão atual pela página de [releases](https://github.com/mathwegner/Oracle/releases).
 
-## Novidades da versão 0.1.65-beta
+## Novidades da versão 0.1.66-beta
 
-- **Prévia renovada:** janela moderna para anexos, controles de zoom e navegação organizada.
-- **Respostas mais legíveis:** títulos, destaques, listas e código com formatação visual.
-- **Cópia flexível:** copie respostas completas, blocos de código ou somente o texto selecionado.
-- **Estabilidade:** corrigido o encerramento do aplicativo ao usar o menu de seleção de texto.
-- **Word organizado:** prévia de leitura com parágrafos, tabelas e imagens na ordem do documento.
-- **PDF completo na prévia:** navegue por todas as páginas e abra o original quando precisar.
-- Consulte [todas as melhorias e correções desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.65-beta).
-
+- **Notícias:** edição com várias fontes, leitura dentro do Oracle, busca por palavras-chave e 14 categorias.
+- **Sua seleção de fontes:** ative, restrinja ou adicione sites em um painel que abre apenas quando você deseja ajustar.
+- **Visual organizado:** cabeçalho, categorias, busca e cartões alinhados, com atualização suave da lista.
+- **Sugestões na sua ordem:** arraste os cartões para trocar posições com acompanhamento do cursor e animação.
+- **Counter Pick:** mais confrontos disponíveis por campeão e rota.
+- **Tecla Windows:** ajustes de estabilidade ao iniciar o sistema e ao abrir ou ocultar Notícias.
+- **Correções:** fontes restringidas deixam a edição atual; falhas no cache não bloqueiam resultados; mudanças rápidas de busca não restauram uma rolagem antiga.
+- Consulte [todas as melhorias e correções desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.66-beta).
 ## Exemplos de pesquisa
 
 Digite estes comandos na busca do Oracle:
@@ -133,8 +147,8 @@ Encontrou um erro ou quer sugerir uma melhoria? Abra uma [issue](https://github.
 
 ## Apoie o projeto
 
-Se o Oracle é útil para você, sua contribuição ajuda a manter o projeto e dar continuidade ao desenvolvimento.
+Se o Oracle facilita seu dia, considere apoiar o projeto. **Qualquer valor é bem-vindo:** cada centavo ajuda a manter o desenvolvimento, trazer novas melhorias e financiar novos projetos.
 
-Leia o QR Code abaixo com o aplicativo do seu banco para fazer uma doação via Pix:
+Escaneie o QR Code abaixo com o aplicativo do seu banco e contribua via Pix com o valor que puder. **Seu apoio faz a diferença. Obrigado!**
 
 <p align="center"><img src="pix-donation-qr.png" alt="QR Code Pix para apoiar o projeto Oracle" width="280" /></p>
