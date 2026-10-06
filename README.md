@@ -36,7 +36,15 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - Escolha quais sugestões aparecem no menu principal em **Opções**.
 - Use **Opções → Sugestões → Organizar sugestões** para arrastar um cartão sobre outro e trocar suas posições com animação, ou usar as setas para definir sua ordem. A organização é salva automaticamente, com opção de restaurar a ordem padrão.
 - A janela começa centralizada no monitor principal. Ao movê-la, sua posição fica salva; **Restaurar posição padrão** recupera a centralização.
+- A primeira execução usa a mesma posição e dimensões de **Restaurar posição padrão**, com tamanho ajustado ao conteúdo. Atualizações preservam o perfil de posição e tamanho já salvo.
 - A janela se ajusta ao conteúdo; ao redimensioná-la manualmente, o Oracle respeita o espaço escolhido.
+
+### Menu de aplicativos
+
+- Clique com o botão direito em um resultado de Apps para acessar as ações disponíveis para aquele item.
+- Abra o aplicativo, execute como administrador quando compatível, consulte propriedades, abra o local do arquivo, crie um atalho na área de trabalho ou copie o caminho.
+- Atalhos preservam o ícone e os argumentos do aplicativo original.
+- Nas versões compatíveis do Windows 10, fixe ou desafixe aplicativos diretamente na barra de tarefas. Essa integração ainda não está disponível no Windows 11.
 
 ### Notícias
 
@@ -44,6 +52,7 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - A edição reúne notícias do Brasil e do mundo.
 - Em **Opções → Fontes de notícias**, ative ou restrinja cada fonte e adicione outros sites ou links RSS. Sites sem feed usam a cobertura disponível no Google Notícias; a disponibilidade varia por veículo.
 - As fontes ficam recolhidas em Opções, com um resumo da seleção. Clique em **Gerenciar fontes** para ajustar e em **Recolher fontes** para liberar espaço.
+- Arraste as fontes para organizar sua preferência. As fontes mais acima aparecem com maior frequência em **Em destaque**, sem excluir as demais fontes ativas. **Mais recentes** continua ordenado por data.
 - Manchetes em destaque, fonte e horário visíveis, cartões organizados e mais notícias aparecendo ao rolar.
 - Busque palavras-chave e combine com categorias: Brasil, Mundo, Política, Economia, Tecnologia, Ciência, Saúde, Esportes, Games, Cultura, Educação, Meio ambiente, Negócios e Segurança. Cada categoria usa termos relacionados no título e no resumo; a busca consulta somente as fontes ativas. Limpar remove os filtros, enquanto Tudo remove apenas a categoria.
 - Alterne entre **Em destaque** e **Mais recentes** em um menu com seleção destacada. Leia a notícia dentro do Oracle, com modo de leitura disponível quando o veículo permite extrair o conteúdo. Use **Abrir na fonte** para acessar a matéria original no navegador padrão. As condições de acesso do veículo são preservadas.
@@ -84,6 +93,8 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - Configure a tecla Windows para abrir ou ocultar o Oracle, mantendo combinações como `Win + R` e `Win + E` disponíveis.
 - Ajuste opções compatíveis da barra de tarefas. Algumas delas dependem da versão do Windows e de componentes externos como Windhawk ou TaskbarX.
 - Capture a tela pelas opções do Oracle.
+- O Oracle abre como administrador por padrão. A primeira configuração solicita autorização do Windows; as próximas aberturas reutilizam a tarefa autorizada da sua conta.
+- Em **Opções → Inicialização**, escolha iniciar com o Windows e **Executar como administrador ao iniciar com o Windows**. Essa segunda opção vem marcada por padrão e pode ser desmarcada.
 - Ao iniciar com o Windows, o Oracle fica em segundo plano na área de notificação. Clique no ícone para abrir a janela; a posição em Ícones ocultos segue sua preferência no Windows.
 - Use **Restaurar barra de tarefas padrão** para desfazer as ocultações do Oracle e recuperar o alinhamento anterior preservado do Windows.
 
@@ -103,16 +114,16 @@ As atualizações passam a manter o nome **Oracle.exe** e a ajustar os atalhos c
 
 Também é possível baixar manualmente a versão atual pela página de [releases](https://github.com/mathwegner/Oracle/releases).
 
-## Novidades da versão 0.1.66-beta
+## Novidades da versão 0.1.67-beta
 
-- **Notícias:** edição com várias fontes, leitura dentro do Oracle, busca por palavras-chave e 14 categorias.
-- **Sua seleção de fontes:** ative, restrinja ou adicione sites em um painel que abre apenas quando você deseja ajustar.
-- **Visual organizado:** cabeçalho, categorias, busca e cartões alinhados, com atualização suave da lista.
-- **Sugestões na sua ordem:** arraste os cartões para trocar posições com acompanhamento do cursor e animação.
-- **Counter Pick:** mais confrontos disponíveis por campeão e rota.
-- **Tecla Windows:** ajustes de estabilidade ao iniciar o sistema e ao abrir ou ocultar Notícias.
-- **Correções:** fontes restringidas deixam a edição atual; falhas no cache não bloqueiam resultados; mudanças rápidas de busca não restauram uma rolagem antiga.
-- Consulte [todas as melhorias e correções desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.66-beta).
+- **Apps com mais opções:** botão direito para abrir, executar como administrador quando compatível, abrir o local, consultar propriedades, criar um atalho com o ícone do aplicativo e copiar o caminho.
+- **Fixação na barra:** fixar e desafixar diretamente pelo menu de Apps nas versões compatíveis do Windows 10, sem depender de notificações do Windows.
+- **Notícias na sua ordem:** arraste as fontes em Opções. As fontes mais acima aparecem com maior frequência nos destaques; Mais recentes mantém a ordem por data.
+- **Visual consistente:** menus, dicas e seletores acompanham Dark e White; transições de ligar e desligar mais suaves e correções de contornos indesejados.
+- **Inicialização:** abertura administrativa por padrão e opção própria para iniciar com o Windows como administrador; posição e tamanho padrão na primeira execução, preservando configurações nas atualizações.
+- **Correções:** estabilidade da tecla Windows durante a abertura de aplicativos, propriedades e ícones de atalhos, edição de texto, troca de temas e recuperação de notícias após falhas no cache.
+- Consulte [todas as melhorias e correções desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.67-beta).
+
 ## Exemplos de pesquisa
 
 Digite estes comandos na busca do Oracle:
