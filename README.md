@@ -34,6 +34,7 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - Digite `yt` e pressione Enter para abrir o YouTube no navegador padrão.
 - Personalize os temas Dark e White, idioma, transparência do painel e das sugestões, atalhos e posição da janela.
 - Escolha quais sugestões aparecem no menu principal em **Opções**.
+- Cada sugestão tem um ícone vetorial próprio, com cores que acompanham os temas Dark e White.
 - Use **Opções → Sugestões → Organizar sugestões** para arrastar um cartão sobre outro e trocar suas posições com animação, ou usar as setas para definir sua ordem. A organização é salva automaticamente, com opção de restaurar a ordem padrão.
 - A janela começa centralizada no monitor principal. Ao movê-la, sua posição fica salva; **Restaurar posição padrão** recupera a centralização.
 - A primeira execução usa a mesma posição e dimensões de **Restaurar posição padrão**, com tamanho ajustado ao conteúdo. Atualizações preservam o perfil de posição e tamanho já salvo.
@@ -45,6 +46,13 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - Abra o aplicativo, execute como administrador quando compatível, consulte propriedades, abra o local do arquivo, crie um atalho na área de trabalho ou copie o caminho.
 - Atalhos preservam o ícone e os argumentos do aplicativo original.
 - Nas versões compatíveis do Windows 10, fixe ou desafixe aplicativos diretamente na barra de tarefas. Essa integração ainda não está disponível no Windows 11.
+
+### Menu da bandeja
+
+- Clique com o botão direito no ícone do Oracle na área de notificação para acessar ferramentas do Windows em um menu compacto, com ícones originais e cores do tema.
+- Abra Apps e Recursos, opções de energia, Visualizador de Eventos, Sistema, Gerenciador de Dispositivos, Conexões de Rede, Gerenciamento de Disco e Gerenciamento do Computador.
+- Acesse o Prompt de Comando normal ou administrativo, Gerenciador de Tarefas, Configurações, Explorador de Arquivos e Executar.
+- **Desligar ou sair do Windows** reúne sair da conta, suspender, desligar e reiniciar. **Abrir Oracle** e **Encerrar Oracle** continuam separados das ações do Windows.
 
 ### Notícias
 
@@ -114,15 +122,13 @@ As atualizações passam a manter o nome **Oracle.exe** e a ajustar os atalhos c
 
 Também é possível baixar manualmente a versão atual pela página de [releases](https://github.com/mathwegner/Oracle/releases).
 
-## Novidades da versão 0.1.67-beta
+## Novidades da versão 0.1.68-beta
 
-- **Apps com mais opções:** botão direito para abrir, executar como administrador quando compatível, abrir o local, consultar propriedades, criar um atalho com o ícone do aplicativo e copiar o caminho.
-- **Fixação na barra:** fixar e desafixar diretamente pelo menu de Apps nas versões compatíveis do Windows 10, sem depender de notificações do Windows.
-- **Notícias na sua ordem:** arraste as fontes em Opções. As fontes mais acima aparecem com maior frequência nos destaques; Mais recentes mantém a ordem por data.
-- **Visual consistente:** menus, dicas e seletores acompanham Dark e White; transições de ligar e desligar mais suaves e correções de contornos indesejados.
-- **Inicialização:** abertura administrativa por padrão e opção própria para iniciar com o Windows como administrador; posição e tamanho padrão na primeira execução, preservando configurações nas atualizações.
-- **Correções:** estabilidade da tecla Windows durante a abertura de aplicativos, propriedades e ícones de atalhos, edição de texto, troca de temas e recuperação de notícias após falhas no cache.
-- Consulte [todas as melhorias e correções desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.67-beta).
+- **Ícones dedicados:** onze desenhos vetoriais próprios nas sugestões, incluindo os recursos de League of Legends, acompanhando Dark e White.
+- **Ferramentas do Windows na bandeja:** atalhos de administração, aplicativos e configurações no botão direito do ícone do Oracle.
+- **Menu mais compacto:** ícones originais das ferramentas do Windows, com o estilo e as cores do Oracle.
+- **Energia e sessão:** submenu **Desligar ou sair do Windows**, preservando **Abrir Oracle** e **Encerrar Oracle**.
+- Consulte [todas as novidades desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.68-beta).
 
 ## Exemplos de pesquisa
 
