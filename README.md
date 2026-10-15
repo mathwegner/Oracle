@@ -19,7 +19,7 @@ Launcher para Windows com busca rápida, ferramentas do dia a dia e recursos par
 
 O Oracle é um launcher inteligente para Windows. Abra a pesquisa, digite o que precisa e acesse aplicativos, cálculos, conversões, traduções, respostas de IA e ferramentas de League of Legends sem navegar por vários menus.
 
-A versão **0.1.69** inaugura o canal estável do Oracle. Recursos e integrações online podem mudar conforme os serviços externos atualizam seus sites e dados.
+A versão atual é a **0.1.70 estável**. Recursos e integrações online podem mudar conforme os serviços externos atualizam seus sites e dados.
 
 ## Recursos
 
@@ -90,7 +90,8 @@ A versão **0.1.69** inaugura o canal estável do Oracle. Recursos e integraçõ
 - **Counter Pick:** consulta confrontos por rota, inclusive quando há poucas partidas na amostra.
 - **Runas:** abre as recomendações do campeão e da rota no League of Graphs.
 - **Perfil do jogador:** pesquisa Riot ID com `#` no League of Graphs e procura nomes compatíveis sem `#` na OP.GG.
-- O catálogo de duos e os retratos atuais ficam incluídos no executável. Com internet e recursos de LoL habilitados, o Oracle consulta periodicamente o catálogo oficial da Riot e baixa retratos de campeões novos para o cache local. Depois do download, nomes e retratos continuam disponíveis offline, inclusive após fechar o programa. A disponibilidade depende da atualização do Data Dragon pela Riot.
+- **Todos os campeões offline:** os 173 campeões disponíveis no catálogo incluído têm seus retratos no próprio executável, incluindo top, mid, selva, atiradores e suportes. Não é necessário baixar os ícones ao abrir uma combinação.
+- **Verificação diária:** com o Oracle aberto e internet disponível, o catálogo oficial da Riot é verificado a cada 24 horas. Novos campeões e retratos são salvos no computador e continuam disponíveis offline após reiniciar. Sem conexão, os dados existentes são preservados. Novidades dependem da publicação no Data Dragon pela Riot.
 - As sugestões de LoL aparecem por padrão quando uma instalação do jogo é detectada. Mesmo sem o jogo, você pode ativá-las em **Configurações → Funções**; suas escolhas ficam salvas.
 
 ### Windows
@@ -123,6 +124,15 @@ As atualizações passam a manter o nome **Oracle.exe** e a ajustar os atalhos c
 
 Também é possível baixar manualmente a versão atual pela página de [releases](https://github.com/mathwegner/Oracle/releases).
 
+## Novidades da versão 0.1.70 — Estável
+
+- **Duos melhor distribuídos:** classificação, retratos e nomes usam a largura disponível, com alinhamento em duas colunas e dados de cada combinação logo abaixo.
+- **Retratos maiores:** imagens de 40 px e textos ajustados para facilitar a leitura na lista de Duo Bot.
+- **Todos os campeões offline:** 173 retratos incluídos no executável, abrangendo todas as rotas.
+- **Novos campeões automaticamente:** verificação do catálogo da Riot a cada 24 horas com o Oracle aberto e conectado. Novos retratos ficam salvos para uso offline.
+- **Ícones sem espera desnecessária:** prioridade para as imagens locais, com exibição individual dos retratos baixados e correção de nomes alternativos de campeões.
+- **Preferências preservadas:** atualização mantém suas configurações, sugestões e fontes de notícias.
+- Consulte [as notas desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.70) e [as novidades da 0.1.69](https://github.com/mathwegner/Oracle/releases/tag/v0.1.69).
 ## Novidades da versão 0.1.69 — Estável
 
 - **Configurações na janela principal:** navegação por Aparência, Funções, Notícias e Windows, com organização compacta e simétrica. Sobre recebeu uma apresentação mais integrada.
