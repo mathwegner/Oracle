@@ -9,7 +9,7 @@ Launcher para Windows com busca rápida, ferramentas do dia a dia e recursos par
 [⬇️ Baixar a versão mais recente](https://github.com/mathwegner/Oracle/releases) · [Ver todas as versões](https://github.com/mathwegner/Oracle/releases)
 
 ![Windows 10 e 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)
-[![Versão e canal](https://img.shields.io/github/v/release/mathwegner/Oracle?include_prereleases&label=vers%C3%A3o%20%2F%20canal)](https://github.com/mathwegner/Oracle/releases)
+[![Versão estável](https://img.shields.io/github/v/release/mathwegner/Oracle?label=vers%C3%A3o%20est%C3%A1vel)](https://github.com/mathwegner/Oracle/releases)
 
 </div>
 
@@ -19,7 +19,7 @@ Launcher para Windows com busca rápida, ferramentas do dia a dia e recursos par
 
 O Oracle é um launcher inteligente para Windows. Abra a pesquisa, digite o que precisa e acesse aplicativos, cálculos, conversões, traduções, respostas de IA e ferramentas de League of Legends sem navegar por vários menus.
 
-O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam uma versão de pré-lançamento; sem esse sufixo, indicam uma versão estável. Recursos e integrações online podem mudar conforme os serviços externos atualizam seus sites e dados.
+A versão **0.1.69** inaugura o canal estável do Oracle. Recursos e integrações online podem mudar conforme os serviços externos atualizam seus sites e dados.
 
 ## Recursos
 
@@ -32,10 +32,10 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - Consulte a web quando precisar de informações atuais.
 - Digite `clima Biguaçu` para ver temperatura atual, previsão de oito dias e gráficos por hora, sem escrever `web`. Use também cidade e estado, como `clima Santa Maria RS` ou `clima Santa Maria, Rio Grande do Sul`.
 - Digite `yt` e pressione Enter para abrir o YouTube no navegador padrão.
-- Personalize os temas Dark e White, idioma, transparência do painel e das sugestões, atalhos e posição da janela.
-- Escolha quais sugestões aparecem no menu principal em **Opções**.
-- Cada sugestão tem um ícone vetorial próprio, com cores que acompanham os temas Dark e White.
-- Use **Opções → Sugestões → Organizar sugestões** para arrastar um cartão sobre outro e trocar suas posições com animação, ou usar as setas para definir sua ordem. A organização é salva automaticamente, com opção de restaurar a ordem padrão.
+- Personalize os temas Claro e Escuro, idioma, transparência dos fundos, atalhos e posição da janela. Textos e ícones mantêm a nitidez ao ajustar a opacidade.
+- Em **Configurações → Funções**, escolha separadamente o que **Exibir** no menu e quais funções **Ativar**. Ocultar deixa o menu mais limpo; desativar também bloqueia o comando digitado.
+- Cada sugestão tem um ícone vetorial próprio, com cores que acompanham os temas Claro e Escuro.
+- Use **Configurações → Aparência → Organizar sugestões** para arrastar os cartões e escolher seus tamanhos **P, M ou G**. Misture ferramentas e sugestões de League of Legends na mesma organização. As escolhas são salvas automaticamente, com opção de restaurar a ordem padrão.
 - A janela começa centralizada no monitor principal. Ao movê-la, sua posição fica salva; **Restaurar posição padrão** recupera a centralização.
 - A primeira execução usa a mesma posição e dimensões de **Restaurar posição padrão**, com tamanho ajustado ao conteúdo. Atualizações preservam o perfil de posição e tamanho já salvo.
 - A janela se ajusta ao conteúdo; ao redimensioná-la manualmente, o Oracle respeita o espaço escolhido.
@@ -51,15 +51,15 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 
 - Clique com o botão direito no ícone do Oracle na área de notificação para acessar ferramentas do Windows em um menu compacto, com ícones originais e cores do tema.
 - Abra Apps e Recursos, opções de energia, Visualizador de Eventos, Sistema, Gerenciador de Dispositivos, Conexões de Rede, Gerenciamento de Disco e Gerenciamento do Computador.
-- Acesse o Prompt de Comando normal ou administrativo, Gerenciador de Tarefas, Configurações, Explorador de Arquivos e Executar.
+- Acesse o Prompt de Comando normal ou administrativo, Gerenciador de Tarefas, Configurações, Painel de Controle, Explorador de Arquivos e Executar.
 - **Desligar ou sair do Windows** reúne sair da conta, suspender, desligar e reiniciar. **Abrir Oracle** e **Encerrar Oracle** continuam separados das ações do Windows.
 
 ### Notícias
 
 - Abra **Notícias** nas sugestões ou digite `notícias`, `jornal` ou `radar` para ler sua edição do dia.
 - A edição reúne notícias do Brasil e do mundo.
-- Em **Opções → Fontes de notícias**, ative ou restrinja cada fonte e adicione outros sites ou links RSS. Sites sem feed usam a cobertura disponível no Google Notícias; a disponibilidade varia por veículo.
-- As fontes ficam recolhidas em Opções, com um resumo da seleção. Clique em **Gerenciar fontes** para ajustar e em **Recolher fontes** para liberar espaço.
+- Em **Configurações → Notícias**, ative ou restrinja cada fonte e adicione outros sites ou links RSS. Sites sem feed usam a cobertura disponível no Google Notícias; a disponibilidade varia por veículo.
+- As fontes ficam recolhidas nas configurações, com um resumo da seleção. Clique em **Gerenciar fontes** para ajustar e em **Recolher fontes** para liberar espaço. **Descubra outra fonte** e **Restaurar fontes originais** continuam acessíveis com a lista recolhida.
 - Arraste as fontes para organizar sua preferência. As fontes mais acima aparecem com maior frequência em **Em destaque**, sem excluir as demais fontes ativas. **Mais recentes** continua ordenado por data.
 - Manchetes em destaque, fonte e horário visíveis, cartões organizados e mais notícias aparecendo ao rolar.
 - Busque palavras-chave e combine com categorias: Brasil, Mundo, Política, Economia, Tecnologia, Ciência, Saúde, Esportes, Games, Cultura, Educação, Meio ambiente, Negócios e Segurança. Cada categoria usa termos relacionados no título e no resumo; a busca consulta somente as fontes ativas. Limpar remove os filtros, enquanto Tudo remove apenas a categoria.
@@ -71,6 +71,7 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 ### Chat IA local
 
 - Converse com um assistente local para perguntas gerais, planejamento e ajuda com programação e projetos.
+- Em **Configurações → Funções → IA e League of Legends**, **Internet no Chat IA** permite autorizar buscas na web. Essa permissão é opcional e vem desativada.
 - Envie imagens, vídeos, PDFs, documentos Word e arquivos de texto ou código compatíveis. Clique nas miniaturas e nos cartões para visualizar os anexos antes ou depois do envio.
 - A IA visual analisa imagens, as primeiras seis páginas de PDFs e até seis quadros por vídeo, sem áudio. Documentos Word incluem texto e imagens compatíveis.
 - Imagens têm zoom, ajuste à janela e tamanho original. Vídeos têm controles de reprodução na prévia.
@@ -89,8 +90,8 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - **Counter Pick:** consulta confrontos por rota, inclusive quando há poucas partidas na amostra.
 - **Runas:** abre as recomendações do campeão e da rota no League of Graphs.
 - **Perfil do jogador:** pesquisa Riot ID com `#` no League of Graphs e procura nomes compatíveis sem `#` na OP.GG.
-- Retratos dos campeões atuais ficam incluídos no aplicativo; fontes online ajudam a atualizar dados e imagens.
-- As sugestões de LoL aparecem por padrão quando uma instalação do jogo é detectada. Mesmo sem o jogo, você pode ativá-las em **Opções**; suas escolhas ficam salvas.
+- O catálogo de duos e os retratos atuais ficam incluídos no executável. Com internet e recursos de LoL habilitados, o Oracle consulta periodicamente o catálogo oficial da Riot e baixa retratos de campeões novos para o cache local. Depois do download, nomes e retratos continuam disponíveis offline, inclusive após fechar o programa. A disponibilidade depende da atualização do Data Dragon pela Riot.
+- As sugestões de LoL aparecem por padrão quando uma instalação do jogo é detectada. Mesmo sem o jogo, você pode ativá-las em **Configurações → Funções**; suas escolhas ficam salvas.
 
 ### Windows
 
@@ -102,7 +103,7 @@ O canal de lançamento aparece junto da versão acima: tags com `-beta` indicam 
 - Ajuste opções compatíveis da barra de tarefas. Algumas delas dependem da versão do Windows e de componentes externos como Windhawk ou TaskbarX.
 - Capture a tela pelas opções do Oracle.
 - O Oracle abre como administrador por padrão. A primeira configuração solicita autorização do Windows; as próximas aberturas reutilizam a tarefa autorizada da sua conta.
-- Em **Opções → Inicialização**, escolha iniciar com o Windows e **Executar como administrador ao iniciar com o Windows**. Essa segunda opção vem marcada por padrão e pode ser desmarcada.
+- Em **Configurações → Windows → Inicialização**, escolha iniciar com o Windows e **Executar como administrador ao iniciar com o Windows**. Essa segunda opção vem marcada por padrão e pode ser desmarcada.
 - Ao iniciar com o Windows, o Oracle fica em segundo plano na área de notificação. Clique no ícone para abrir a janela; a posição em Ícones ocultos segue sua preferência no Windows.
 - Use **Restaurar barra de tarefas padrão** para desfazer as ocultações do Oracle e recuperar o alinhamento anterior preservado do Windows.
 
@@ -122,13 +123,18 @@ As atualizações passam a manter o nome **Oracle.exe** e a ajustar os atalhos c
 
 Também é possível baixar manualmente a versão atual pela página de [releases](https://github.com/mathwegner/Oracle/releases).
 
-## Novidades da versão 0.1.68-beta
+## Novidades da versão 0.1.69 — Estável
 
-- **Ícones dedicados:** onze desenhos vetoriais próprios nas sugestões, incluindo os recursos de League of Legends, acompanhando Dark e White.
-- **Ferramentas do Windows na bandeja:** atalhos de administração, aplicativos e configurações no botão direito do ícone do Oracle.
-- **Menu mais compacto:** ícones originais das ferramentas do Windows, com o estilo e as cores do Oracle.
-- **Energia e sessão:** submenu **Desligar ou sair do Windows**, preservando **Abrir Oracle** e **Encerrar Oracle**.
-- Consulte [todas as novidades desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.68-beta).
+- **Configurações na janela principal:** navegação por Aparência, Funções, Notícias e Windows, com organização compacta e simétrica. Sobre recebeu uma apresentação mais integrada.
+- **Sugestões do seu jeito:** cartões em grade, tamanhos P/M/G e mistura de ferramentas com recursos de LoL. Organize em **Configurações → Aparência → Organizar sugestões**.
+- **Exibir e ativar separados:** oculte um cartão para deixar o menu mais limpo ou desative sua função, inclusive os comandos digitados.
+- **Temas e transparência:** Claro e Escuro, ícones autorais e fundos que acompanham a opacidade sem apagar textos e ícones.
+- **Notícias:** adicionar fontes e restaurar as originais ficam acessíveis mesmo com Gerenciar fontes recolhido.
+- **LoL offline atualizado:** catálogo e retratos incluídos no executável, com novos campeões e retratos salvos localmente após a consulta online ao Data Dragon.
+- **Windows na bandeja:** adicionado o Painel de Controle com o ícone original do sistema.
+- **Janela e navegação:** recálculo do tamanho ao abrir sugestões, atualizar resultados e voltar ao menu principal, incluindo Duo Bot e Apps.
+- **Uso durante jogos:** pausa dos ajustes automáticos da barra quando a janela em primeiro plano ocupa o monitor, incluindo janela sem borda. A piscada intermitente relatada ainda está em observação.
+- Consulte [todas as novidades desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.69).
 
 ## Exemplos de pesquisa
 
