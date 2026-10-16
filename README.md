@@ -1,6 +1,6 @@
 <div align="center">
 
-<p><img src="oracle-logo-combinada.svg" alt="Logo do Oracle" width="320" /></p>
+<p><img src="imagens/logotipo-oracle.svg" alt="Logo do Oracle" width="320" /></p>
 
 **Pesquise, abra e resolva tarefas do Windows em uma única janela.**
 
@@ -9,7 +9,7 @@ Launcher para Windows com busca rápida, ferramentas do dia a dia e recursos par
 [⬇️ Baixar a versão mais recente](https://github.com/mathwegner/Oracle/releases) · [Ver todas as versões](https://github.com/mathwegner/Oracle/releases)
 
 ![Windows 10 e 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)
-[![Versão estável](https://img.shields.io/github/v/release/mathwegner/Oracle?label=vers%C3%A3o%20est%C3%A1vel)](https://github.com/mathwegner/Oracle/releases)
+[![Versão estável](https://img.shields.io/badge/vers%C3%A3o-0.1.70%20est%C3%A1vel-2ea44f)](https://github.com/mathwegner/Oracle/releases)
 
 </div>
 
@@ -184,4 +184,4 @@ Se o Oracle facilita seu dia, considere apoiar o projeto. **Qualquer valor é be
 
 Escaneie o QR Code abaixo com o aplicativo do seu banco e contribua via Pix com o valor que puder. **Seu apoio faz a diferença. Obrigado!**
 
-<p align="center"><img src="pix-donation-qr.png" alt="QR Code Pix para apoiar o projeto Oracle" width="280" /></p>
+<p align="center"><img src="imagens/qrcode-pix.png" alt="QR Code Pix para apoiar o projeto Oracle" width="280" /></p>
