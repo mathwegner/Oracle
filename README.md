@@ -124,6 +124,32 @@ As atualizações passam a manter o nome **Oracle.exe** e a ajustar os atalhos c
 
 Também é possível baixar manualmente a versão atual pela página de [releases](https://github.com/mathwegner/Oracle/releases).
 
+## Próxima atualização — 0.1.71
+
+**A versão 0.1.71 está preparada, mas ainda não foi publicada para download.** A versão disponível nas releases continua sendo a **0.1.70**.
+
+### Configurações e aparência
+
+- Configurações passa a abrir inicialmente em **Sobre**. Para alterar opções, selecione **Preferências**.
+- **Desligar, Reiniciar, Configurações do Windows e Capturar** ficam agrupados no cabeçalho, em ícones compactos com identificação ao passar o mouse. A faixa anterior de Ações rápidas foi removida.
+- O número da versão no Sobre fica maior e centralizado.
+- **Centralizar programa** centraliza a janela preservando o tamanho escolhido.
+
+### Janela e sugestões
+
+- Largura mínima manual de **420 px**, mantendo as dimensões padrão.
+- Em **Configurações → Windows**, escolha abrir o conteúdo **para cima ou para baixo**. Para baixo continua como padrão; alterar a opção mantém a janela no lugar.
+- O conteúdo segue a direção escolhida mesmo perto das bordas, sem inverter automaticamente.
+- Apps volta a ajustar a altura à quantidade de resultados, com limite para listas maiores.
+- A primeira abertura usa a composição aprovada de cartões grandes, médios e pequenos. Perfis existentes mantêm a organização escolhida.
+
+### Rolagem e teclado
+
+- Rolagem mais gradual, com menor avanço por toque, velocidade limitada e controle do movimento acumulado.
+- Ícones de Apps carregam em segundo plano; atualizações de Duo aguardam a rolagem parar, reduzindo interrupções.
+- Ajustes na identificação de Ctrl, Alt e Shift e na captura de eventos de remapeadores para reduzir aberturas indevidas da pesquisa do Windows. A falha intermitente continua em observação.
+- Preferências e fontes de notícias são preservadas.
+
 ## Novidades da versão 0.1.70 — Estável
 
 - **Duos melhor distribuídos:** classificação, retratos e nomes usam a largura disponível, com alinhamento em duas colunas e dados de cada combinação logo abaixo.
