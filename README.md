@@ -9,7 +9,7 @@ Launcher para Windows com busca rápida, ferramentas do dia a dia e recursos par
 [⬇️ Baixar a versão mais recente](https://github.com/mathwegner/Oracle/releases/latest) · [Ver todas as versões](https://github.com/mathwegner/Oracle/releases)
 
 ![Windows 10 e 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)
-[![Versão estável](https://img.shields.io/badge/vers%C3%A3o-0.1.71%20est%C3%A1vel-2ea44f)](https://github.com/mathwegner/Oracle/releases/tag/v0.1.71)
+[![Versão estável](https://img.shields.io/badge/vers%C3%A3o-0.1.72%20est%C3%A1vel-2ea44f)](https://github.com/mathwegner/Oracle/releases/tag/v0.1.72)
 
 </div>
 
@@ -19,7 +19,7 @@ Launcher para Windows com busca rápida, ferramentas do dia a dia e recursos par
 
 O Oracle é um launcher inteligente para Windows. Abra a pesquisa, digite o que precisa e acesse aplicativos, cálculos, conversões, traduções, respostas de IA e ferramentas de League of Legends sem navegar por vários menus.
 
-A versão atual é a **0.1.71 estável**. Recursos e integrações online podem mudar conforme os serviços externos atualizam seus sites e dados.
+A versão atual é a **0.1.72 estável**. Recursos e integrações online podem mudar conforme os serviços externos atualizam seus sites e dados.
 
 ## Recursos
 
@@ -127,6 +127,14 @@ Use **Verificar atualizações** na seção **Sobre** do Oracle. O aplicativo co
 As atualizações passam a manter o nome **Oracle.exe** e a ajustar os atalhos correspondentes da área de trabalho para **Oracle**, preservando suas preferências.
 
 Também é possível baixar manualmente a versão atual pela página de [releases](https://github.com/mathwegner/Oracle/releases).
+
+## Novidades da versão 0.1.72 — Estável
+
+- **Tamanhos respeitados em janelas menores:** corrigida a grade que fazia uma sugestão M ocupar a largura de G. Nas larguras suportadas da janela, P usa um terço da linha, M metade e G a linha inteira, preservando o tamanho salvo ao reabrir.
+- **Organização sem controles cortados:** os seletores P/M/G passam para uma segunda linha quando o cartão fica estreito. Títulos e indicações têm identificação completa ao passar o mouse.
+- **Posições corretas:** a indicação da linha na tela inicial passa a desconsiderar sugestões ocultas.
+- A correção abrange os 11 cartões, incluindo ferramentas e League of Legends. Ordem, tamanhos escolhidos e demais preferências são preservados.
+- Consulte [as notas desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.72).
 
 ## Novidades da versão 0.1.71 — Estável
 
