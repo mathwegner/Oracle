@@ -6,10 +6,10 @@
 
 Launcher para Windows com busca rápida, ferramentas do dia a dia e recursos para League of Legends.
 
-[⬇️ Baixar a versão mais recente](https://github.com/mathwegner/Oracle/releases) · [Ver todas as versões](https://github.com/mathwegner/Oracle/releases)
+[⬇️ Baixar a versão mais recente](https://github.com/mathwegner/Oracle/releases/latest) · [Ver todas as versões](https://github.com/mathwegner/Oracle/releases)
 
 ![Windows 10 e 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)
-[![Versão estável](https://img.shields.io/badge/vers%C3%A3o-0.1.70%20est%C3%A1vel-2ea44f)](https://github.com/mathwegner/Oracle/releases)
+[![Versão estável](https://img.shields.io/badge/vers%C3%A3o-0.1.71%20est%C3%A1vel-2ea44f)](https://github.com/mathwegner/Oracle/releases/tag/v0.1.71)
 
 </div>
 
@@ -19,7 +19,7 @@ Launcher para Windows com busca rápida, ferramentas do dia a dia e recursos par
 
 O Oracle é um launcher inteligente para Windows. Abra a pesquisa, digite o que precisa e acesse aplicativos, cálculos, conversões, traduções, respostas de IA e ferramentas de League of Legends sem navegar por vários menus.
 
-A versão atual é a **0.1.70 estável**. Recursos e integrações online podem mudar conforme os serviços externos atualizam seus sites e dados.
+A versão atual é a **0.1.71 estável**. Recursos e integrações online podem mudar conforme os serviços externos atualizam seus sites e dados.
 
 ## Recursos
 
@@ -36,9 +36,13 @@ A versão atual é a **0.1.70 estável**. Recursos e integrações online podem 
 - Em **Configurações → Funções**, escolha separadamente o que **Exibir** no menu e quais funções **Ativar**. Ocultar deixa o menu mais limpo; desativar também bloqueia o comando digitado.
 - Cada sugestão tem um ícone vetorial próprio, com cores que acompanham os temas Claro e Escuro.
 - Use **Configurações → Aparência → Organizar sugestões** para arrastar os cartões e escolher seus tamanhos **P, M ou G**. Misture ferramentas e sugestões de League of Legends na mesma organização. As escolhas são salvas automaticamente, com opção de restaurar a ordem padrão.
-- A janela começa centralizada no monitor principal. Ao movê-la, sua posição fica salva; **Restaurar posição padrão** recupera a centralização.
-- A primeira execução usa a mesma posição e dimensões de **Restaurar posição padrão**, com tamanho ajustado ao conteúdo. Atualizações preservam o perfil de posição e tamanho já salvo.
+- A janela começa centralizada no monitor principal. Ao movê-la, sua posição fica salva; **Centralizar programa** centraliza novamente sem apagar o tamanho escolhido.
+- Na primeira execução, a janela usa as dimensões padrão e se ajusta ao conteúdo. Atualizações preservam o perfil de posição e tamanho já salvo.
 - A janela se ajusta ao conteúdo; ao redimensioná-la manualmente, o Oracle respeita o espaço escolhido.
+- Reduza manualmente a largura até **420 px**, mantendo as dimensões padrão enquanto não as alterar.
+- O botão de Configurações abre inicialmente em **Sobre**. Selecione **Preferências** para ajustar o programa; as ações rápidas ficam agrupadas no cabeçalho.
+- Em **Configurações → Windows**, escolha abrir o conteúdo **para cima ou para baixo**, mantendo a posição da janela. Para baixo é o padrão.
+- A rolagem usa avanço gradual e controle do movimento acumulado. Ícones de Apps carregam em segundo plano e atualizações de Duo aguardam a rolagem parar.
 
 ### Menu de aplicativos
 
@@ -124,31 +128,19 @@ As atualizações passam a manter o nome **Oracle.exe** e a ajustar os atalhos c
 
 Também é possível baixar manualmente a versão atual pela página de [releases](https://github.com/mathwegner/Oracle/releases).
 
-## Próxima atualização — 0.1.71
+## Novidades da versão 0.1.71 — Estável
 
-**A versão 0.1.71 está preparada, mas ainda não foi publicada para download.** A versão disponível nas releases continua sendo a **0.1.70**.
-
-### Configurações e aparência
-
-- Configurações passa a abrir inicialmente em **Sobre**. Para alterar opções, selecione **Preferências**.
-- **Desligar, Reiniciar, Configurações do Windows e Capturar** ficam agrupados no cabeçalho, em ícones compactos com identificação ao passar o mouse. A faixa anterior de Ações rápidas foi removida.
-- O número da versão no Sobre fica maior e centralizado.
-- **Centralizar programa** centraliza a janela preservando o tamanho escolhido.
-
-### Janela e sugestões
-
-- Largura mínima manual de **420 px**, mantendo as dimensões padrão.
-- Em **Configurações → Windows**, escolha abrir o conteúdo **para cima ou para baixo**. Para baixo continua como padrão; alterar a opção mantém a janela no lugar.
-- O conteúdo segue a direção escolhida mesmo perto das bordas, sem inverter automaticamente.
-- Apps volta a ajustar a altura à quantidade de resultados, com limite para listas maiores.
-- A primeira abertura usa a composição aprovada de cartões grandes, médios e pequenos. Perfis existentes mantêm a organização escolhida.
-
-### Rolagem e teclado
-
-- Rolagem mais gradual, com menor avanço por toque, velocidade limitada e controle do movimento acumulado.
-- Ícones de Apps carregam em segundo plano; atualizações de Duo aguardam a rolagem parar, reduzindo interrupções.
-- Ajustes na identificação de Ctrl, Alt e Shift e na captura de eventos de remapeadores para reduzir aberturas indevidas da pesquisa do Windows. A falha intermitente continua em observação.
-- Preferências e fontes de notícias são preservadas.
+- **Direção de abertura:** em Configurações → Windows, escolha abrir o conteúdo para cima ou para baixo. Para baixo continua sendo o padrão. A escolha mantém a posição da janela, mesmo perto das bordas da tela.
+- **Janela mais flexível:** é possível reduzir manualmente a largura até 420 px. As dimensões padrão permanecem iguais e os cartões se reorganizam conforme o espaço disponível.
+- **Apps com altura automática:** a lista volta a acompanhar a quantidade de resultados, mantendo um limite para catálogos maiores.
+- **Rolagem mais gradual:** avanço menor por toque, limite do movimento acumulado e melhorias no carregamento dos ícones de Apps. Atualizações de Duo aguardam a rolagem parar, reduzindo interrupções.
+- **Primeira abertura organizada:** cartões de tamanhos variados destacam aplicativos, notícias, ferramentas e IA. As sugestões de LoL ficam ocultas por padrão quando o jogo não é detectado. Perfis existentes mantêm suas escolhas.
+- **Configurações começa em Sobre:** acesse Preferências manualmente quando quiser ajustar o programa.
+- **Cabeçalho compacto:** Desligar, Reiniciar, Configurações do Windows e Capturar ficam no topo, com identificação ao passar o mouse.
+- **Sobre e centralização:** versão instalada maior e centralizada; o botão Centralizar programa mantém o tamanho escolhido pelo usuário.
+- **Tecla Windows:** ajustes na identificação de modificadores e eventos de remapeadores para reduzir aberturas indevidas da pesquisa do Windows. A falha intermitente continua em observação.
+- **Preferências preservadas:** suas sugestões, fontes de notícias, posição e demais configurações são mantidas na atualização.
+- Consulte [as notas desta versão](https://github.com/mathwegner/Oracle/releases/tag/v0.1.71).
 
 ## Novidades da versão 0.1.70 — Estável
 
